@@ -1,5 +1,91 @@
+body{
+	font-family: verdana;
+}
 .logo {
-	height: 140px;
+	height: 80px;
 
+}
+
+.footer{
+	background-color:lightpink;
+	width: 100%;
+	height: 75px;
+	position: bottom;
+	bottom: 0px;
+	text-align: center;
+
+
+}
+
+.titel{
+	font-size: 80px;
+	margin-left: 200px;
+}
+
+.nav-item{
+	margin-bottom: 30px;
+}
+
+#download{
+	text-align: center;
+	border: solid black 8px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+#date{
+	text-align: center;
+	border: solid black 8px;
+	height: 150px;
+	margin-top: 20px;
+}	
+
+#gallery{
+	text-align: center;
+	padding: center;
+	margin-top: 20px;
+	
+}
+
+#info{
+	text-align: center;
+	border: solid black 8px;
+	height: 250px;
+	padding: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#python{
+	text-align: center;
+	height: 200px;
+	margin-top: 20px;
+}
+
+#after_submit{
+	visibility: hidden;
+	background-color: white;
+	margin: auto;
+	border-radius: 40px;
+	border: solid 4px;
+	width: 230px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+#textbox{
+	width: 250px;
+	text-align: center;
+}
+.fraga{
+	background-color: white;
+	width: 600px;
+	border: solid 4px;
+	border-radius: 40px;
+	margin: auto;
+}
+
+.containerquiz{ 
+	text-align: center;
 }
 
