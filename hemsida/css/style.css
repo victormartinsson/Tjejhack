@@ -28,14 +28,14 @@ body{
 
 #download{
 	text-align: center;
-	border: solid black 8px;
-	height: 100px;
+	border: solid black 5px;
+	height: 80px;
 	margin-top: 20px;
 }
 
 #date{
 	text-align: center;
-	border: solid black 8px;
+	border: solid black 5px;
 	height: 150px;
 	margin-top: 20px;
 }	
@@ -43,7 +43,8 @@ body{
 #gallery{
 	text-align: center;
 	padding: center;
-	margin-top: 20px;
+	height: 400px;
+	width: 100%;
 	
 }
 
@@ -89,3 +90,7 @@ body{
 	text-align: center;
 }
 
+.car{
+	width: 100%;
+	height: 300px;
+}
