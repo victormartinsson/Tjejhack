@@ -4,8 +4,8 @@
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-	
-	<title>Tjejhack</title>
+  
+  <title>Tjejhack</title>
 </head>
 <body>
 
@@ -32,87 +32,34 @@
 <form id = "quiz" name= "quiz">
 
 <div class="fraga">
-<p>Fråga 1?</p><br>
-<input id="textbox" type="text" name="question1" placeholder="?">
+<p>Fråga 1: Programspråket Python har fått sitt namn från...</p>
+<input type="radio" id ="mc1" name="question1" value="ormen">Ormen<br>
+<input type="radio" id ="mc2" name="question1" value="monty">Monty Python<br>
+<input type="radio" id ="mc3" name="question1" value="lukten">Lukten<br>
 <br><br>
 </div>
 <br>
 
-<div class="fraga">
-<p>Fråga 2?</p>
-<img class="bild2" src="image/bild2.jpg" alt=""> <br> <br>
-<input type="radio" id ="mc1" name="question2" value="1">1<br>
-<input type="radio" id ="mc2" name="question2" value="2">2<br>
-<input type="radio" id ="mc3" name="question2" value="3">3<br>
-<input type="radio" id ="mc4" name="question2" value="4">4<br>
-<br>
-</div>
-<br>
 
 <div class="fraga">
-<p>Fråga 3?</p>
-<input type="radio" id ="mc5" name="question3" value="1">1<br>
-<input type="radio" id ="mc6" name="question3" value="2">2<br>
-<input type="radio" id ="mc7" name="question3" value="3">3<br>
-<input type="radio" id ="mc8" name="question3" value="4">4<br>
-<br>
-</div>
-<br>
-
-<div class="fraga">
-<p>Fråga 4?</p>
-<input id="textbox9" type="text" name="question4" placeholder="?">
+<p>Fråga 2: Vilket bibliotek använder man när man ritar med Python?</p>
+<input type="radio" id ="mc4" name="question2" value="turtle">Turtle<br>
+<input type="radio" id ="mc5" name="question2" value="paint">Paint<br>
+<input type="radio" id ="mc6" name="question2" value="draw">Draw<br>
 <br><br>
 </div>
 <br>
 
+
 <div class="fraga">
-<p>Fråga 5?</p><br>
-<input id="textbox10" type="text" name="question5" placeholder="?">
+<p>Fråga 3: Vilken typ av programmering gör man med Python?</p>
+<input type="radio" id ="mc7" name="question3" value="block">Blockprogrammering<br>
+<input type="radio" id ="mc8" name="question3" value="text">Textprogrammering<br>
+<input type="radio" id ="mc9" name="question3" value="analog">Analog programmering<br>
 <br><br>
 </div>
 <br>
 
-<div class="fraga">
-<p>Fråga 6?</p>
-<input type="radio" id ="mc11" name="question6" value="1">1<br>
-<input type="radio" id ="mc12" name="question6" value="2">2<br>
-<input type="radio" id ="mc13" name="question6" value="3">3<br>
-<input type="radio" id ="mc14" name="question6" value="4">4<br>
-</div>
-<br>
-
-<div class="fraga">
-<p>Fråga 7?</p>
-<input type="radio" id ="mc15" name="question7" value="1">1<br>
-<input type="radio" id ="mc16" name="question7" value="2">2<br>
-<input type="radio" id ="mc17" name="question7" value="3">3<br>
-<input type="radio" id ="mc18" name="question7" value="4">4<br>
-</div>
-<br>
-
-<div class="fraga">
-<p>Fråga 8?</p>
-<input type="radio" id ="mc19" name="question8" value="1">1<br>
-<input type="radio" id ="mc20" name="question8" value="2">2<br>
-<input type="radio" id ="mc21" name="question8" value="3">3<br>
-<input type="radio" id ="mc22" name="question8" value="4">4<br>
-</div>
-<br>
-
-<div class="fraga">
-<p>Fråga 9?</p>
-<input id="textbox23" type="text" name="question9" placeholder="?">
-<br><br>
-</div>
-<br>
-
-<div class="fraga">
-<p>Fråga 10?</p>
-<input id="textbox24" type="text" name="question10" placeholder="?">
-<br><br>
-</div>
-<br>
 
 <input id="button" type="button" value="Se ditt resultat!" onclick="check();"> 
 </form>
@@ -130,6 +77,12 @@
 
 <footer class="footer"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
 <p>TE16 Gymnasieskolan Knut Hahn </p> </footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
