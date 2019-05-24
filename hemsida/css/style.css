@@ -25,6 +25,13 @@ body{
 	bottom: 0px;
 	text-align: center;
 }
+.footerkontakt{
+	background-color:#E80C94;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+}
 
 .titel{
 	font-size: 60px;
@@ -155,10 +162,22 @@ body{
 	text-align: center;
 	margin-bottom: 10px;
 }
-.btn-secondary{background-color: #E80C94; }
+
+.btn-secondary{background-color: #E80C94; 
+}
 
 .effekt:hover {
   background-color: #E80C94;
   border-radius: 25px;
   transition: background-color .5s;
+}
+#storlekkontaktinfo{
+	width: 400px;
+	height: 400px;
+	text-align: center;
+}
+#karta{
+	width: 400px;
+	height: 400px;
+	margin-top: 10px;
 }
