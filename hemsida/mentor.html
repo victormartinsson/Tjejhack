@@ -1,85 +1,94 @@
   <!DOCTYPE html>
-  <html>
+  <html lang="sv">
   <head>
+    <!-- Länkar in min css samt bootstrapcss-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  	
-  	<title>Tjejhack</title>
+    <title>Tjejhack</title>
+    <meta charset="UTF-8">
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" href=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <!-- Här skapas menyn -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <h1 class="titel">Tjejhack</h1>
         <div class="navbar-nav ml-auto">
-        <a id="link1" class="nav-item nav-link effekt" href="home.html">Startsida</a>
-        <a id="link2" class="nav-item nav-link effekt" href="news.html">Nyheter</a>
-        <a id="link3" class="nav-item nav-link effekt" href="mentor.html">Mentorer</a>
-        <a id="link4" class="nav-item nav-link effekt" href="kontakt.html">Kontakta oss</a>
+          <a id="link1" class="nav-item nav-link effekt" href="home.html">Startsida</a>
+          <a id="link2" class="nav-item nav-link effekt" href="news.html">Nyheter</a>
+          <a id="link3" class="nav-item nav-link effekt" href="mentor.html">Mentorer</a>
+          <a id="link4" class="nav-item nav-link effekt" href="kontakt.html">Kontakta oss</a>
+        </div>
+        <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"> <img class="logo" src="img/knutlogo.png" alt=""> </a>
+      </div>  
+    </nav>
+
+    <main>
+
+      <div class="container">
+        <!-- Under ligger bilder på mentorer och namn  -->
+        <div class="presentationer">
+          <div>
+            <img class="mentorbild" src="img/mentor1.JPG" alt="">
+          </div>
+          <div class="mentor">
+            <h3>Fredrik Johansson</h3>
+          </div>
+          <div>
+            <img class="mentorbild" src="img/mentor2.JPG" alt="">
+          </div>
+          <div class="mentor">
+            <h3>Liselott Lilja</h3>
+          </div>
+          <div>
+            <img class="mentorbild" src="img/mentor4.png" alt="">
+          </div>
+          <div class="mentor">
+            <h3>Disa Knutsson</h3>
+          </div>
+          <div>
+            <img class="mentorbild" src="img/mentor4.png" alt="">
+          </div>
+          <div class="mentor">
+            <h3>Evelina Persson</h3>
+          </div>
+          <div>
+            <img class="mentorbild" src="img/mentor4.png" alt="">
+          </div>
+          <div class="mentor">
+            <h3>Emma Karlberg</h3>
+          </div>
+          <div>
+            <img class="mentorbild" src="img/mentor4.png" alt="">
+          </div>
+          <div class="mentor">
+            <h3>Hanna Sunnegårdh Ring</h3>
+          </div>
+
+
+
+
+
+        </div>
       </div>
-     <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"> <img class="logo" src="img/knutlogo.png"> </a>
-    </div>  
-  </nav>
 
-<div class="container">
-  <div class="presentationer">
-    <div>
-      <img class="mentorbild" src="img/mentor1.JPG">
-    </div>
-    <div class="mentor">
-      <h3>Fredrik Johansson</h3>
-    </div>
-    <div>
-      <img class="mentorbild" src="img/mentor2.JPG">
-    </div>
-    <div class="mentor">
-      <h3>Liselott Lilja</h3>
-    </div>
-    <div>
-      <img class="mentorbild" src="img/mentor4.png">
-    </div>
-    <div class="mentor">
-      <h3>Namn saknas</h3>
-    </div>
-    <div>
-      <img class="mentorbild" src="img/mentor4.png">
-    </div>
-    <div class="mentor">
-      <h3>Namn saknas</h3>
-    </div>
-    <div>
-      <img class="mentorbild" src="img/mentor4.png">
-    </div>
-    <div class="mentor">
-      <h3>Namn saknas</h3>
-    </div>
-    <div>
-      <img class="mentorbild" src="img/mentor4.png">
-    </div>
-    <div class="mentor">
-      <h3>Namn saknas</h3>
-    </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footermentor"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
+      <p>TE16 Gymnasieskolan Knut Hahn </p></footer>
 
+    <!-- Länkar in script -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 
+    </body>
 
+    
 
+    </html>
 
-  </div>
-</div>
-
-  <footer class="footermentor"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
-  <p>TE16 Gymnasieskolan Knut Hahn </p></footer>
-
-  </body>
-
-  <script type="text/javascript" href="js/bootstrap.js"></script>
-  <script type="text/javascript" href="js/script.js"></script>
-
-  </html>
-
-  

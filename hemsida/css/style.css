@@ -1,17 +1,20 @@
+/* Här ändras temafärgen för hela sidan exclusive quizet som besitter en egen css
+*/
+
+/* Varje ställe där följande står: var(--farg), byts färgen till det som står nedan*/
+:root {
+ --farg: #E80C94;
+}
+
 body{
-	font-family: Verdana;
+	font-family: 'Montserrat', sans-serif;
 }
 .logo {
 	height: 80px;
-
-}
-
-.containerquiz{ 
-	text-align: center;
 }
 
 .footer{
-	background-color:#E80C94;
+	background-color:var(--farg);
 	width: 100%;
 	position: bottom;
 	bottom: 0px;
@@ -20,13 +23,13 @@ body{
 
 .footermentor{
 	position: bottom;
-	background-color:#E80C94;
+	background-color:var(--farg);
 	width: 100%;
 	bottom: 0px;
 	text-align: center;
 }
 .footerkontakt{
-	background-color:#E80C94;
+	background-color:var(--farg);
 	width: 100%;
 	position: fixed;
 	bottom: 0px;
@@ -35,11 +38,7 @@ body{
 
 .titel{
 	font-size: 60px;
-	color: #E80C94;
-}
-
-.nav-item{
-	margin-bottom: 30px;
+	color: var(--farg);
 }
 
 .download{
@@ -49,7 +48,7 @@ body{
 
 .date{
 	text-align: center;
-	border: solid #E80C94 2px;
+	border: solid var(--farg) 2px;
 	border-radius: 40px; 
 	height: 150px;
 	margin-top: 20px;
@@ -66,7 +65,7 @@ body{
 
 .info{
 	text-align: center;
-	border: solid #E80C94 2px;
+	border: solid var(--farg) 2px;
 	border-radius: 40px; 
 	padding: center;
 	margin-bottom: 20px;
@@ -76,46 +75,24 @@ body{
 
 
 .python{
-	border: solid #E80C94 2px;
+	border: solid var(--farg) 2px;
 	border-radius: 40px; 
 	text-align: center;
 	height: 200px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 #laddaner{
-	background-color: #E80C94;
+	background-color: var(--farg);
 	width: 300px;
 	height: 40px;
-}
-#quiz{
-	background-color: #E80C94;
-	width: 150px;
-	height: 40px;
+	border-radius: 40px;
 }
 
 .stat{
 	height: 200px;
 	width: 330px;
-}
-
-#after_submit{
-	visibility: hidden;
-	background-color: white;
-	margin: auto;
-	border-radius: 40px;
-	border: solid 4px;
-	width: 230px;
-	padding: 10px;
-	margin-bottom: 20px;
-}
-
-.fraga{
-	background-color: white;
-	width: 600px;
-	border: solid 4px;
-	border-radius: 40px;
-	margin: auto;
 }
 
 #egnanews{
@@ -136,7 +113,7 @@ body{
 .mentor{
 	margin: auto;
 	width: 50%;
-	border: solid #E80C94 2px;
+	border: solid var(--farg) 2px;
 	border-radius: 40px; 
 	padding: 10px;
 	margin-top: 20px;
@@ -146,6 +123,7 @@ body{
 .mentorbild{
 	width: 125px;
 	height: 175px;
+	border-radius: 50%;
 }
 .ytklipp{
 	margin: auto;
@@ -162,12 +140,11 @@ body{
 	text-align: center;
 	margin-bottom: 10px;
 }
-
-.btn-secondary{background-color: #E80C94; 
+.btn-secondary{background-color: var(--farg); 
 }
 
 .effekt:hover {
-  background-color: #E80C94;
+  background-color: var(--farg);
   border-radius: 25px;
   transition: background-color .5s;
 }
@@ -181,3 +158,8 @@ body{
 	height: 400px;
 	margin-top: 10px;
 }
+#quiz{
+	width: 200px; 
+	border-radius: 40px;
+}
+

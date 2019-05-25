@@ -1,0 +1,77 @@
+/* Här byter du temafärg på hela sidan.
+Varje ställe där följande står: var(--farg), byts färgen till det som står nedan*/
+:root{
+	--farg:#E80C94;
+}
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.logo {
+	height: 80px;
+}
+
+#after_submit{
+	visibility: hidden;
+	background-color: white;
+	margin: auto;
+	border-radius: 40px;
+	border: solid var(--farg) 2px;
+	width: 230px;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.fraga{
+	background-color: white;
+	width: 600px;
+	border: solid var(--farg) 2px;
+	border-radius: 40px;
+	margin: auto;
+	padding-top:15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.footer{
+	background-color:var(--farg);
+	width: 100%;
+	position: bottom;
+	bottom: 0px;
+	text-align: center;
+}
+
+.titel{
+	font-size: 60px;
+	color: var(--farg);
+}
+
+.effekt:hover {
+  background-color: var(--farg);
+  border-radius: 25px;
+  transition: background-color .5s;
+}
+
+.knapp{
+	margin: auto;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.resultatknapp{
+	background-color: var(--farg);
+	border-radius: 40px;
+}
+.header{
+	margin: auto;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+
+}

@@ -1,37 +1,47 @@
   <!DOCTYPE html>
-  <html>
+  <html lang="sv">
   <head>
 
+    <!-- Länkar in min css samt bootstrapcss-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
     <title>Tjejhack</title>
+    <meta charset="UTF-8">
   </head>
+
   <body>
 
+    <!-- Här börjar menyn -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" href=""></a>
+      <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <h1 class="titel">Tjejhack</h1>
+        <h2 class="titel">Tjejhack</h2>
         <div class="navbar-nav ml-auto">
           <a id="link1" class="nav-item nav-link effekt" href="home.html">Startsida</a>
           <a id="link2" class="nav-item nav-link effekt" href="news.html">Nyheter</a>
           <a id="link3" class="nav-item nav-link effekt" href="mentor.html">Mentorer</a>
           <a id="link4" class="nav-item nav-link effekt" href="kontakt.html">Kontakta oss</a>
         </div>
-        <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"><img class="logo" src="img/knutlogo.png"> </a>
+        <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"><img class="logo" src="img/knutlogo.png" alt=""> </a>
       </div>
 
     </nav>
 
-    <div class="container">
+    <main>
 
-      <div class="row">
+      <div class="container">
+
+       <!-- Här börjar mitt gridsystem  -->
+
+       <div class="row">
         <div class="col-lg-8">
 
+          <!-- Här skapas bildkarusellen -->
           <div class="gallery">
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -44,7 +54,7 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/bild3.png" class="car" alt="" class="img-responsive">
+                  <img src="img/bild3.png" alt="" class="img-responsive car">
                   <div class="carousel-caption">
                   </div>
                 </div>
@@ -80,36 +90,36 @@
             </div>
           </div>  
 
+          <!-- Informationsruta -->
           <div class="info"><h3> Information </h3><br>
             <p>Tjejhack Ronneby genomfördes första gången våren 2018 för alla tjejer som går årskurs sju på skolorna i Ronneby kommun. Det är elever som går Teknikprogrammet på Gymnasieskolan Knut Hahn som arrangerar tjejhacket. Syftet är att tjejer i lugn och ro ska få prova på att programmera. Planen är att tjejhack ska bli något vi genomför varje år.
             </p>
             <div class="row"> 
               <div class="col-lg-6">
-              <h3>Statistik</h3>
-              <p>
-              Under 2018 testade hela 120 tjejer på att programmera hos oss. Av dessa tyckte mer än hela åtta av tio personer att det var intressant och även meningsfullt.
-              Under året har fyra stycken elever varit mentorer under tjejhacket tillsammans med två stycken lärare. 
-              </p>
-              <h4>Kommentarer från elever</h4>
-              <p>"Det var kul!"</p>
-              <p>"Det var kul. Man lär sig snabbt :)"</p>
-              <p>"Det var kul och jag lärde mig något nytt"</p>
+                <h3>Statistik</h3>
+                <p>
+                  Under 2018 testade hela 120 tjejer på att programmera hos oss. Av dessa tyckte mer än hela åtta av tio personer att det var intressant och även meningsfullt.
+                  Under året har fyra stycken elever varit mentorer under tjejhacket tillsammans med två stycken lärare. 
+                </p>
+                <h4>Kommentarer från elever</h4>
+                <p>"Det var kul!"</p>
+                <p>"Det var kul. Man lär sig snabbt :)"</p>
+                <p>"Det var kul och jag lärde mig något nytt"</p>
                 <p>"roligt =)"</p>
               </div>
               <div class="col-lg-2">
-                <img class="stat" src="img/stat1.PNG">
+                <!-- Statistikbilder -->
+                <img class="stat" src="img/stat1.PNG" alt="">
                 <p></p>
-                <img class="stat" src="img/stat2.PNG">
+                <img class="stat" src="img/stat2.PNG" alt="">
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
                 <h3>Tips för dig som vill testa programmera!</h3>
-                <lu> 
-                <li>Lyssna noga i början!</li>
-                <li>Ge inte upp efter första gången!</li>
-                <li>Får du problem, fråga en kompis eller lärare!</li>
-                </lu>
+                  <p>Lyssna noga i början!</p>
+                  <p>Ge inte upp efter första gången!</p>
+                  <p>Får du problem, fråga en kompis eller lärare!</p>
               </div>
             </div>
           </div>
@@ -117,35 +127,43 @@
 
         <div class="col-lg-4">
 
-          <div class="download"><a href="https://docs.google.com/document/d/1wHjENfKS35pxIJBCpY6p1pe8bxh9lJHSridFDkwG3x8/edit?usp=sharing
-"><button type="button" id="laddaner" class="btn btn-secondary">Ladda ner undervisningsmaterial!</button></a></div>
+          <!-- Nedladdningsknapp -->
+          <div class="download">
+          <a href="https://docs.google.com/document/d/1wHjENfKS35pxIJBCpY6p1pe8bxh9lJHSridFDkwG3x8/edit?usp=sharing
+            " class="btn btn-secondary" id="laddaner">Ladda ner undervisningsmaterial!</a>
+            </div>
 
-          <div class="date"><br><h4>Nästa datum för tjejhack:</h4><h1> 29 maj </h1> </div>  
+            <!-- ruta för kalenderfunktion -->
+            <div class="date"><br><h4>Nästa datum för tjejhack:</h4><h1> 29 maj </h1> </div>  
 
-          <div class="python"><br><h4>Se vad du kan om Python!</h4><br></p><a id="quiz" href="quiz.html"><button type="button" id="quiz"class="btn btn-secondary">Quiz</button></a></div>
+            <!-- Knapp för att komma till quiz -->
+            <div class="python"><br><h4>Se vad du kan om Python!</h4><br>
+            <a id="quiz" class="btn btn-secondary" href="quiz.html">Quiz</a>
+            </div>
+
+          </div>
+
 
         </div>
-
-
       </div>
-    </div>
 
 
 
 
+    </main>
 
-
+    <!-- footer -->
     <footer class="footer"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
       <p>TE16 Gymnasieskolan Knut Hahn </p></footer>
 
-
+      <!-- Länkar in javascript -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="js/bootstrap.js"></script>
-      <script type="text/javascript" src="js/script.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/script.js"></script>
 
     </body>
 
 
-  </html>
+    </html>

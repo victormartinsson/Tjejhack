@@ -1,57 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
 
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-	<title>Tjejhack</title>
+  <!-- Länkar in min css samt bootstrapcss-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Tjejhack</title>
+  <meta charset="UTF-8">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" href=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <!-- Skapar min meny -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <h1 class="titel">Tjejhack</h1>
       <div class="navbar-nav ml-auto">
-      <a id="link1" class="nav-item nav-link effekt" href="home.html">Startsida</a>
-      <a id="link2" class="nav-item nav-link effekt" href="news.html">Nyheter</a>
-      <a id="link3" class="nav-item nav-link effekt" href="mentor.html">Mentorer</a>
-      <a id="link4" class="nav-item nav-link effekt" href="kontakt.html">Kontakta oss</a>
+        <a id="link1" class="nav-item nav-link effekt" href="home.html">Startsida</a>
+        <a id="link2" class="nav-item nav-link effekt" href="news.html">Nyheter</a>
+        <a id="link3" class="nav-item nav-link effekt" href="mentor.html">Mentorer</a>
+        <a id="link4" class="nav-item nav-link effekt" href="kontakt.html">Kontakta oss</a>
+      </div>
+      <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"> <img class="logo" src="img/knutlogo.png" alt=""> </a>
     </div>
-   <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"> <img class="logo" src="img/knutlogo.png"> </a>
-  </div>
   </nav>
 
-<div class="container">
-  <div class="row">
-    <div id="karta" class="col-sm">
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5359.608623580644!2d15.268820099351446!3d56.20309295059698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4656647d084020a3%3A0xe929fb8182a0b18d!2sKnut+Hahnsskolan!5e0!3m2!1ssv!2sse!4v1558725283862!5m2!1ssv!2sse" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <div id="storlekkontaktinfo" class="col-sm">
-     <h3>Kontaktinformation</h3>
-     <h5>Fredrik Johansson</h5>
-     <p>Telefon: 0457-618354</p>
-     <p>Mail: fredrik.johansson@ronneby.se</p><br>
-     <h5>Liselott Lilja</h5>
-     <p>Telefon: 0457-618354</p>
-     <p>Mail: liselott.lilja@ronneby.se</p>
-    </div>
-  </div>
-</div>
+  <main>
+
+    <!-- Nedan skapas ett gridsystem med en googlemapskarta till vänster och kontaktinformation till höger -->
+
+    <div class="container">
+      <div class="row">
+        <div id="karta" class="col-sm">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5359.608623580644!2d15.268820099351446!3d56.20309295059698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4656647d084020a3%3A0xe929fb8182a0b18d!2sKnut+Hahnsskolan!5e0!3m2!1ssv!2sse!4v1558725283862!5m2!1ssv!2sse" width="350" height="400"  allowfullscreen></iframe>
+       </div>
+       <div id="storlekkontaktinfo" class="col-sm">
+         <h3>Kontaktinformation</h3>
+         <h5>Fredrik Johansson</h5>
+         <p>Telefon: 0457-618354</p>
+         <p>Mail: fredrik.johansson@ronneby.se</p><br>
+         <h5>Liselott Lilja</h5>
+         <p>Telefon: 0457-618354</p>
+         <p>Mail: liselott.lilja@ronneby.se</p>
+       </div>
+     </div>
+   </div>
 
 
+ </main>
 
+ <footer class="footerkontakt"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
+  <p>TE16 Gymnasieskolan Knut Hahn </p> </footer>
 
-<footer class="footerkontakt"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
-<p>TE16 Gymnasieskolan Knut Hahn </p> </footer>
+<!-- Länkar in script -->
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 
-<script type="text/javascript" href="js/bootstrap.js"></script>
-<script type="text/javascript" href="js/script.js"></script>
+
 
 </html>

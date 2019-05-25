@@ -1,71 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
 
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-	<title>Tjejhack</title>
+  <!-- Länkar in min css samt bootstrapcss-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Tjejhack</title>
+  <meta charset="UTF-8">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" href=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <!-- Skapar meny -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html"><img class="logo" src="img/tjejhacklogo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <h1 class="titel">Tjejhack</h1>
       <div class="navbar-nav ml-auto">
-      <a id="link1" class="nav-item nav-link effekt" href="home.html">Startsida</a>
-      <a id="link2" class="nav-item nav-link effekt" href="news.html">Nyheter</a>
-      <a id="link3" class="nav-item nav-link effekt" href="mentor.html">Mentorer</a>
-      <a id="link4" class="nav-item nav-link effekt" href="kontakt.html">Kontakta oss</a>
+        <a id="link1" class="nav-item nav-link effekt" href="home.html">Startsida</a>
+        <a id="link2" class="nav-item nav-link effekt" href="news.html">Nyheter</a>
+        <a id="link3" class="nav-item nav-link effekt" href="mentor.html">Mentorer</a>
+        <a id="link4" class="nav-item nav-link effekt" href="kontakt.html">Kontakta oss</a>
+      </div>
+      <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"> <img class="logo" src="img/knutlogo.png" alt=""> </a>
     </div>
-   <a href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html"> <img class="logo" src="img/knutlogo.png"> </a>
-  </div>
-  
+
   </nav>
 
-<div class="container">
-  <div class="nyheter">
-      <div class="card">
-        <div class="card-body">
-          <div class="row">
-            <!--Facebook-->
-            <div class="col-lg-4">
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fteknist%2F&tabs=timeline&width=340&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-            </div>
+  <main>
+    <!-- Gridsystem med en facebook scroller till vänster och nyhetsflöde till höger-->
+    <div class="container">
+      <div class="nyheter">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <!--Facebook-->
+              <div class="col-lg-4">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fteknist%2F&tabs=timeline&width=340&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="700" style="border:none;overflow:hidden" allow="encrypted-media"></iframe>
+              </div>
               <!--Egna nyheter-->
-            <div class="col-lg-1"></div>
-            <div id="egnanews" class="col-lg-7">
+              <div class="col-lg-1"></div>
+              <div id="egnanews" class="col-lg-7">
                 <h3> Egna nyheter </h3> <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue mi erat, id sodales tortor vestibulum id. Proin viverra rhoncus lacus, vitae suscipit libero elementum sed. Phasellus pulvinar ante enim, non vehicula orci luctus et. Mauris iaculis cursus mauris, maximus consectetur ex vulputate ut. Nulla scelerisque fermentum mi, in efficitur est egestas quis. Donec quis magna tempus, interdum arcu eget, laoreet nisl. Ut non quam facilisis, fringilla enim quis, accumsan diam. Vestibulum interdum, arcu vitae feugiat feugiat, sapien quam volutpat orci, eget luctus lorem tellus at nibh. Fusce eu lacinia ipsum, quis elementum nibh.Nulla vel dolor nisi. Vestibulum vel magna eu ligula imperdiet blandit at ut risus. Nullam sed justo at dui fringilla consequat non ut magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus porttitor mi et dui semper, ut ultricies eros dapibus. Duis ut pharetra orci. Quisque dictum blandit lorem, eu egestas sem blandit laoreet. Sed eget ante nec mauris viverra semper. Curabitur ultricies, velit a bibendum porta, arcu turpis dignissim nulla, non venenatis ante lorem a lorem. Integer nulla justo, fringilla eu ligula at, vestibulum luctus magna. Nunc viverra gravida magna, sit amet cursus augue tempor eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras sit amet dui ac turpis tincidunt aliquam. Morbi semper nunc vitae quam pulvinar, eget eleifend purus euismod. Vestibulum iaculis, felis et elementum dictum, urna leo mattis est, aliquet porttitor dolor augue et orci.Donec quis nunc tempus, porttitor est id, dictum felis.
-            </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue mi erat, id sodales tortor vestibulum id. Proin viverra rhoncus lacus, vitae suscipit libero elementum sed. Phasellus pulvinar ante enim, non vehicula orci luctus et. Mauris iaculis cursus mauris, maximus consectetur ex vulputate ut. Nulla scelerisque fermentum mi, in efficitur est egestas quis. Donec quis magna tempus, interdum arcu eget, laoreet nisl. Ut non quam facilisis, fringilla enim quis, accumsan diam. Vestibulum interdum, arcu vitae feugiat feugiat, sapien quam volutpat orci, eget luctus lorem tellus at nibh. Fusce eu lacinia ipsum, quis elementum nibh.Nulla vel dolor nisi. Vestibulum vel magna eu ligula imperdiet blandit at ut risus. Nullam sed justo at dui fringilla consequat non ut magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus porttitor mi et dui semper, ut ultricies eros dapibus. Duis ut pharetra orci. Quisque dictum blandit lorem, eu egestas sem blandit laoreet. Sed eget ante nec mauris viverra semper. Curabitur ultricies, velit a bibendum porta, arcu turpis dignissim nulla, non venenatis ante lorem a lorem. Integer nulla justo, fringilla eu ligula at, vestibulum luctus magna. Nunc viverra gravida magna, sit amet cursus augue tempor eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras sit amet dui ac turpis tincidunt aliquam. Morbi semper nunc vitae quam pulvinar, eget eleifend purus euismod. Vestibulum iaculis, felis et elementum dictum, urna leo mattis est, aliquet porttitor dolor augue et orci.Donec quis nunc tempus, porttitor est id, dictum felis.</p>
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-12 ytklipp">
-              <iframe width="300" height="150" src="https://www.youtube.com/embed/fKG6bVItzZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <!-- Här länkas ett youtube klipp in i mitten under nyhetsflödet -->
+              <iframe width="300" height="150" src="https://www.youtube.com/embed/fKG6bVItzZQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-lg-12 knappartikel">
-            <a href="https://www.voister.se/artikel/2018/06/koda-latt-i-windows/"><button type="button" class="btn btn-secondary">Läs artikel om att koda lätt i Windows</button></a>
+            <!-- Knapp för att komma till en artikel-->
+            <a id="knappartikel" class="btn btn-secondary" href="https://www.voister.se/artikel/2018/06/koda-latt-i-windows/">Läs artikel om att koda lätt i Windows</a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
 
+  </main>
 
+  <!-- footer -->
+  <footer class="footer"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
+    <p>TE16 Gymnasieskolan Knut Hahn </p></footer>
+    
+    <!-- Här länkar jag in till javascript-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 
-<footer class="footer"> <p>© Victor Martinsson 2019. Denna hemsidan är designad och kodad av Victor Martinsson</p>
-<p>TE16 Gymnasieskolan Knut Hahn </p></footer>
-</body>
+  </body>
 
-<script type="text/javascript" href="js/bootstrap.js"></script>
-<script type="text/javascript" href="js/script.js"></script>
+  
 
-</html>
+  </html>
